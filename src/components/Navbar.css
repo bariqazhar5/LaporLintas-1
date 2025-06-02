@@ -1,0 +1,17 @@
+.navbar-gradient {
+  background: linear-gradient(to right, #0056b3, #3399ff);
+}
+
+.navbar-brand svg {
+  font-size: 1.2rem;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #cce6ff !important;
+  text-decoration: underline;
+}
