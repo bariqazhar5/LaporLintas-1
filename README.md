@@ -1,73 +1,57 @@
-# Getting Started with Create React App
+# 🛣️ LaporLintas – Aplikasi Web Pelaporan Lalu Lintas Masyarakat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**LaporLintas** adalah aplikasi web berbasis React dan Leaflet yang memungkinkan masyarakat untuk melaporkan kondisi lalu lintas secara real-time, seperti kemacetan, kecelakaan, atau lampu lalu lintas yang tidak berfungsi.  
+Laporan yang dikirim akan ditampilkan dalam bentuk peta interaktif untuk membantu petugas menindaklanjuti secara cepat dan efisien.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔧 Teknologi yang Digunakan
 
-### `npm start`
+| Komponen      | Teknologi                         |
+|---------------|------------------------------------|
+| Frontend      | ReactJS, Bootstrap 5, React Leaflet |
+| Backend API   | PHP (XAMPP), REST API              |
+| Database      | MySQL (phpMyAdmin/HeidiSQL)        |
+| Map           | OpenStreetMap + Leaflet.js         |
+| Icons         | FontAwesome                       |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Fitur Utama
 
-### `npm test`
+### 👥 Pengguna Umum
+- Mengisi form pelaporan (nama, deskripsi, lokasi)
+- Memilih titik koordinat di peta Leaflet
+- Data laporan disimpan ke database MySQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧭 Live Location
+- Halaman khusus untuk melihat semua laporan aktif
+- Marker biru ditampilkan berdasarkan data database
+- Nama pelapor muncul di atas marker dengan background putih semi transparan
 
-### `npm run build`
+### 🎨 Tampilan dan UX
+- Navbar gradasi biru dengan ikon `fa-road`
+- Routing antar halaman dengan `react-router-dom`
+- Footer dengan branding institusi dan pembuat
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Struktur Folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+laporlintas/
+├── public/
+│   └── assets/
+│       └── Ilustrasi.png
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Footer.js
+│   │   └── Hero.js
+│   ├── pages/
+│   │   └── LiveLocation.js
+│   ├── App.js
+│   └── index.js
 
 
 
