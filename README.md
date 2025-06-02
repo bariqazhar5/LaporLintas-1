@@ -4,6 +4,9 @@
 Laporan yang dikirim akan ditampilkan dalam bentuk peta interaktif untuk membantu petugas menindaklanjuti secara cepat dan efisien.
 
 ---
+## 🎥 Demo Visual
+
+![Demo Aplikasi LaporLintas](https://github.com/RaAuthentic/LaporLintas/blob/main/demo.gif?raw=true)
 
 ## 🔧 Teknologi yang Digunakan
 
@@ -57,7 +60,7 @@ laporlintas/
 
 ---
 
-## 🎥 Demo Visual
 
-![Demo Aplikasi LaporLintas](https://github.com/RaAuthentic/LaporLintas/blob/main/demo.gif?raw=true)
+
+
 
