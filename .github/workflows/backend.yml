@@ -26,3 +26,15 @@ jobs:
 
       - name: Push Docker image
         run: docker push bariqazhar5/laporlintas-backend
+
+      - name: Deploy to EC2 Ubuntu
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ubuntu
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            docker pull bariqazhar5/lapor-backend
+            docker stop laporlintas-backend || true
+            docker rm laporlintas-backend || true
+            docker run -d -p 80:80 --name laporlintas-backend bariqazhar5/lapor-backend
