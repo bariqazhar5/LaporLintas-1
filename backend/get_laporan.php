@@ -5,7 +5,7 @@ header("Content-Type: application/json");
 $host = "dblaporlintas.cveca0kkk4bq.ap-southeast-2.rds.amazonaws.com";
 $user = "admin";
 $pass = "bariqazhar12";
-$db   = "bariq";
+$db   = "laporlintas";
 $port = 3306;
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
@@ -22,7 +22,7 @@ $data = [];
 while ($row = $result->fetch_assoc()) {
     $data[] = $row;
 }
-//Testtt1
+
 echo json_encode($data);
 $conn->close();
 ?>
