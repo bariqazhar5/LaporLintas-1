@@ -2,11 +2,11 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-$host = "127.0.0.1";
-$user = "root";
-$pass = "";
-$db   = "laporlintas";
-$port = 3307;
+$host = "dblaporlintas.cveca0kkk4bq.ap-southeast-2.rds.amazonaws.com";
+$user = "admin";
+$pass = "bariqazhar12";
+$db   = "dblaporlintas";
+$port = 3306;
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
 if ($conn->connect_error) {
