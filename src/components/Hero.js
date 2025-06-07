@@ -30,7 +30,7 @@ function Hero() {
           {/* Kolom kanan: Gambar ilustrasi */}
           <div className="col-md-6 text-center">
             <img
-              src="/assets/Ilustrasi.png"
+              src="https://laporlintas-s3.s3.ap-southeast-1.amazonaws.com/assets/Ilustrasi.png"
               alt="Ilustrasi LaporLintas"
               className="img-fluid rounded shadow"
             />
