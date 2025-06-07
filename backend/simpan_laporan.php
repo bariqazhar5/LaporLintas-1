@@ -61,7 +61,7 @@ if (empty($nama) || empty($deskripsi)) {
     exit();
 }
 
-// === Simpan ke database ===
+// === Simpan kee database ===
 $sql = "INSERT INTO laporan (nama, deskripsi, latitude, longitude)
         VALUES ('$nama', '$deskripsi', $lat, $lng)";
 
