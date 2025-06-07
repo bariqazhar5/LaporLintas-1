@@ -15,6 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 // === Koneksi ke database MySQL (pastikan pakai port 3307) ===
+//=Testing CI/CD
 $host = "127.0.0.1";
 $user = "root";
 $pass = ""; // karena kamu tidak pakai password

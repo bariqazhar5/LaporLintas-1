@@ -25,4 +25,4 @@ jobs:
         run: docker build -t bariqazhar5/laporlintas-backend ./backend
 
       - name: Push Docker image
-        run: docker push bariqazhar5/laporlintas-backend-container
+        run: docker push bariqazhar5/laporlintas-backend
