@@ -16,7 +16,7 @@ function FormLaporan() {
     };
 
     // Kirim data ke backend
-    fetch('http://localhost/api/simpan_laporan.php', {
+    fetch('http://52.65.94.150/simpan_laporan.php', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

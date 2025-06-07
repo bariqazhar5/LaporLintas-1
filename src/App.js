@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import FormLaporan from './components/FormLaporan';
 import Footer from './components/Footer';
 import LiveLocation from './Pages/LiveLocation';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 function App() {

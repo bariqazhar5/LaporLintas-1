@@ -4,8 +4,14 @@
   padding: 10px;
 }
 
-.leaflet-popup-content {
-  margin: 0;
+.leaflet-popup-content strong {
+  margin-bottom: 4px;
   font-weight: 600;
+  text-align: center;
+}
+
+.leaflet-popup-content span {
+  margin: 0;
+  font-weight: 400;
   text-align: center;
 }

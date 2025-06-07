@@ -24,7 +24,7 @@ function LiveLocation() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost/api/get_laporan.php')
+    fetch('http://52.65.94.150/get_laporan.php')
       .then((res) => res.json())
       .then((laporan) => setData(laporan))
       .catch((err) => console.error('Gagal mengambil data:', err));
@@ -56,7 +56,8 @@ function LiveLocation() {
               })}
             >
               <Popup>
-                <strong>{lapor.nama}</strong>
+                <strong>{lapor.nama}</strong><br />
+                <span>{lapor.deskripsi}</span>
               </Popup>
             </Marker>
           ))}
