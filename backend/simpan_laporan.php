@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 $host = "dblaporlintas.cveca0kkk4bq.ap-southeast-2.rds.amazonaws.com";
 $user = "admin";
 $pass = "bariqazhar12"; // karena kamu tidak pakai password
-$db   = "dblaporlintas";
+$db   = "laporlintas";
 $port = 3306;
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
