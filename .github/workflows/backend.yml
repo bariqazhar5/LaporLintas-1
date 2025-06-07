@@ -45,3 +45,5 @@ jobs:
             docker stop laporlintas-backend || true
             docker rm laporlintas-backend || true
             docker run -d -p 80:80 --name laporlintas-backend bariqazhar5/laporlintas-backend
+
+            //testtt
