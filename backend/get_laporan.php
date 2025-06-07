@@ -5,7 +5,7 @@ header("Content-Type: application/json");
 $host = "dblaporlintas.cveca0kkk4bq.ap-southeast-2.rds.amazonaws.com";
 $user = "admin";
 $pass = "bariqazhar12";
-$db   = "dblaporlintas";
+$db   = "bariq";
 $port = 3306;
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
