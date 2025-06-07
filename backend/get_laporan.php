@@ -22,9 +22,9 @@ $data = [];
 while ($row = $result->fetch_assoc()) {
     $data[] = $row;
 }
-
+//Testt
 echo json_encode($data);
 $conn->close();
 ?>
 
-//Testt
+
