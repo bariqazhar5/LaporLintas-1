@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
-// === Koneksi ke database 
+// === Koneksi ke database ++++
 
 $host = "dblaporlintas.cveca0kkk4bq.ap-southeast-2.rds.amazonaws.com";
 $user = "admin";
