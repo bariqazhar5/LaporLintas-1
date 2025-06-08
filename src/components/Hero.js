@@ -13,7 +13,7 @@ function Hero() {
               LaporLintas – Solusi Mudah untuk Melaporkan Masalah Lalu Lintas di Sekitar Anda
             </h1>
             <p className="mb-3">
-              122345555 LaporLintas adalah platform pelaporan lalu lintas berbasis web yang memudahkan masyarakat untuk menyampaikan informasi terkait kondisi jalan raya secara langsung.
+              LaporLintas adalah platform pelaporan lalu lintas berbasis web yang memudahkan masyarakat untuk menyampaikan informasi terkait kondisi jalan raya secara langsung.
               Anda dapat melaporkan kemacetan, kecelakaan, lampu lalu lintas yang tidak berfungsi, atau hambatan lain yang mengganggu kelancaran lalu lintas.
             </p>
             <p className="mb-3">
