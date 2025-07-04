@@ -15,7 +15,7 @@ if ($conn->connect_error) {
     exit();
 }
 
-$sql = "SELECT id, nama, latitude, longitude, deskripsi FROM laporan WHERE latitude IS NOT NULL AND longitude IS NOT NULL";
+$sql = "SELECT id, nama, latitude, longitude, deskripsi, created_at FROM laporan WHERE latitude IS NOT NULL AND longitude IS NOT NULL";
 $result = $conn->query($sql);
 
 $data = [];
