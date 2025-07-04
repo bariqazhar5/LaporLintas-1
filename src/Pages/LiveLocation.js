@@ -57,8 +57,7 @@ function LiveLocation() {
             >
               <Popup>
                 <strong>{lapor.nama}</strong><br />
-                <span>{lapor.deskripsi}</span><br />
-                <span>{lapor.created_at}</span>
+                <span>{lapor.deskripsi}</span>
               </Popup>
             </Marker>
           ))}
